@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+
+description: "My eval"
+
+prompts:
+  - "Write a short story on the history of {{topic}} in a humourous tone"
+  
+
+providers:
+  - "openai:gpt-4o-mini"
+  - "openai:gpt-4o"
+#  - "anthropic:messages:claude-3-5-sonnet-20241022"
+#  - "anthropic:messages:claude-3-5-haiku-20241022"
+#  - "vertex:gemini-pro"
+  - "ollama:chat:mistral"
+  - "ollama:chat:phi3.5"
+  - "ollama:chat:llama3.2:3b"
+  - "ollama:chat:llama3.2:1b"
+  - "ollama:chat:gemma2:2b"
+  - "ollama:chat:tinyllama"
+  - "ollama:chat:wizardlm2"
+  - "ollama:chat:smollm2:135m"
+  - "ollama:chat:smollm2:360m"
+  - "ollama:chat:smollm2:1.7b"
+tests:
+  - vars:
+      topic: bananas
+  - vars:
+      topic: Raspberry PI
+  - vars:
+      topic: Small Language Models SmolLM
+
+  - vars:
+      topic: avocado toast
+    assert:
+      # For more information on assertions, see https://promptfoo.dev/docs/configuration/expected-outputs
+
+      # Make sure output contains the word "avocado"
+      - type: icontains
+        value: avocado
+
+      # Prefer shorter outputs
+      - type: javascript
+        value: 1 / (output.length + 1)
+
+  - vars:
+      topic: new york city
+    assert:
+      # For more information on model-graded evals, see https://promptfoo.dev/docs/configuration/expected-outputs/model-graded
+      - type: llm-rubric
+        value: ensure that the output is funny
+
