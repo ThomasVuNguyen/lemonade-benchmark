@@ -24,3 +24,6 @@ npx promptfoo@latest eval
 
 export PROMPTFOO_ASSERTIONS_MAX_CONCURRENCY=10
 export NODE_OPTIONS="--max-old-space-size=2048 --optimize-for-size"
+
+# Evaluations:
+https://app.promptfoo.dev/eval/f:a94904bf-c04d-41ba-a9a1-cbd2978571c1
