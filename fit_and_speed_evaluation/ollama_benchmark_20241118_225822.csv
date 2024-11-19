@@ -1,0 +1,196 @@
+Model,Run Number,Response,Tokens/Second,Total Tokens,Average Tokens/Second,Average Total Tokens
+internlm2:1.8b,1,"The vast expanse of the cosmos, diverse cultures, and ever-changing landscapes.",1.82,20,2.89,67.0
+internlm2:1.8b,2,,2.90,1,2.89,67.0
+internlm2:1.8b,3,"The world is vast and diverse, with different continents, oceans, climate zones, and ecosystems.
+
+1. Africa: Rich landscapes, wildlife, and cultural heritage.
+2. Asia: Landscapes, cultures, technologies, and natural wonders.
+3. Europe: Historical sites, architecture, art, and culture.
+4. North America: Landscapes, humanities, technology, and innovation.
+5. South America: Cultural traditions, natural beauty, and flora.
+6. Australia: Diverse wildlife, landscapes, climate zones, and landscapes.
+7. Africa: Wide-open spaces, unique cultures, wildlife, and ecosystems.
+
+Each world is unique in its own way, with a diverse range of people, places, animals, and culture.",3.41,152,2.89,67.0
+internlm2:1.8b,4,"The world is vast and diverse with a variety of cultures, landscapes, and events. It spans continents like Europe, Asia, Africa, and Americas. Each country has its own unique features such as historical sites, natural wonders, and vibrant traditions. This vast expanse can be explored through different types of attractions such as museums, parks, and historical landmarks. The world is dynamic with ongoing processes such as climate change, technological advancements, and cultural exchanges.",3.42,95,2.89,67.0
+tinyllama:latest,1,"A beautiful, vast, and mysterious place with an abundance of life, rich cultures, and an infinite amount of possibilities. This is the world we live in!",2.26,36,4.76,64.2
+tinyllama:latest,2,"Wonderful: This is how we'd describe the world. Enchanting, enriching, invigorating, enthralling, and delightful are some of the other commonly used words to capture the spirit and beauty of a particular place or experience.",5.58,56,4.76,64.2
+tinyllama:latest,3,"Unique, engaging, and exciting: these five words aptly describe the dynamic, diverse, and vibrant world in which you live. From diverse cultures to unique geographical locations, there's always something new and exciting to discover, whether it be a beautiful sunset or a hidden gem of an alleyway. With every day offering a fresh opportunity to explore and learn, the world is a limitless place for you to explore and uncover.",5.60,98,4.76,64.2
+tinyllama:latest,4,"Bold, innovative, passionate, and diverse: these are just a few of the words that can describe the world in 5 words. They represent the unique qualities and characteristics of this ever-changing and dynamic place, which is full of surprises and opportunities for exploration, discovery, and growth.",5.59,67,4.76,64.2
+qwen2:1.5b,1,"Diverse, interconnected, constantly changing.",0.70,9,2.82,9.5
+qwen2:1.5b,2,"Diverse, interconnected, dynamic, ever-evolving, complex.",3.60,14,2.82,9.5
+qwen2:1.5b,3,A constantly evolving universe.,3.45,6,2.82,9.5
+qwen2:1.5b,4,"Diverse, ever-changing, interconnected.",3.54,9,2.82,9.5
+qwen2:0.5b,1,World = Human Mind,0.85,5,6.44,11.2
+qwen2:0.5b,2,"A complex interconnected universe with life, nature and technology at the core.",8.35,15,6.44,11.2
+qwen2:0.5b,3,"The sun sets, day turns dark.",8.10,9,6.44,11.2
+qwen2:0.5b,4,"A place where people come together to share ideas, experiences, and knowledge.",8.45,16,6.44,11.2
+gemma2:2b,1,"Complex, diverse, evolving, interconnected, chaotic.",0.55,13,1.63,13.8
+gemma2:2b,2,"Complex, diverse, interconnected, chaotic, changing.",1.98,13,1.63,13.8
+gemma2:2b,3,"Complex, diverse, interconnected, dynamic, evolving.",1.99,13,1.63,13.8
+gemma2:2b,4,"Imperfect, complex, diverse, ever-changing, fascinating.",2.00,16,1.63,13.8
+phi3.5:latest,ERROR,N/A,N/A,N/A,N/A,N/A
+smollm:360m,1,"Here are 5 words that describe the world:
+
+**1. Eternal**: The word ""eternal"" means something is always happening, existing, or lasting forever. It's a state of being that can't be changed or stopped.
+
+Example sentence: ""The eternal sun shines bright in the sky.""
+
+**2. Unyielding**: This word describes something that remains unchanged, unrelenting, and unchanging over time. It means it doesn't change or adapt to new circumstances.
+
+Example sentence: ""Her unwavering determination drove her to succeed against all odds.""
+
+**3. Imperishable**: Similar to ""eternal,"" this word implies something is completely and forever unchanged in terms of its nature, state, or characteristics.
+
+Example sentence: ""The imperishable beauty of a sunset on a clear day.""
+
+**4. Unshakeable**: This word describes something that remains the same even when it's under stress, pressure, or scrutiny. It means it doesn't change or alter in any way.
+
+Example sentence: ""Her unshakeable confidence made her stand out from the crowd.""
+
+**5. Unrelenting**: This word is used to describe a situation that continues to exist or happen even when there are obstacles, challenges, or setbacks. It means it's not going away no matter what you do.
+
+Example sentence: ""The relentless heat of the summer sun made everyone feel uncomfortable.""
+
+These words can be used in various ways depending on the context and tone you want to convey. For example:
+
+* ""Eternal"" is often used when describing a person's or thing's stability, permanence, or unchanging nature.
+* ""Unyielding"" is used when describing something that remains unchanged despite external pressures or challenges.
+* ""Imperishable"" can be used to describe an idea, concept, or quality that cannot change even if it's under attack or threatened.
+* ""Unshakeable"" is often used in a more positive context, such as when someone has achieved success or overcome obstacles.
+* ""Relenting"" can be used to describe a situation where something becomes less intense or more manageable over time.
+
+These words are all powerful tools for describing the world around us and helping others understand its complexities and nuances.",10.23,483,11.23,308.0
+smollm:360m,2,"Here are 5-word summaries of the world:
+
+**1. The World is a vast and diverse place, with incredible natural wonders like the Grand Canyon, the Great Barrier Reef, and the Amazon Rainforest.
+
+**2. People live all over the world in different countries, each with its own unique culture, language, and traditions.
+
+**3. Cities are bustling hubs of activity, with towering skyscrapers, busy streets, and endless opportunities for innovation and progress.
+
+**4. The world is full of fascinating creatures, from majestic lions to cunning wolves, and colorful birds that sing sweet melodies in the morning light.
+
+**5. Technology has transformed every aspect of modern life, making it possible to communicate instantly across vast distances, access vast amounts of information, and even travel through space (although we're still far from achieving true interstellar travel).
+
+I hope this helps! Let me know if you have any other questions or need further clarification.",11.67,199,11.23,308.0
+smollm:360m,3,"Here are 5-word summaries of different cultures around the world:
+
+**1. Japan - ""Modern Tokyo""**: A bustling metropolis with towering skyscrapers, neon lights, and a vibrant cultural scene. People move quickly through streets lined with train stations, each one unique in its own way.
+
+**2. Brazil - ""Samba City""**: A colorful city where samba music fills the air, and people dance to the rhythm of Afro-Brazilian rhythms like bossa não and tambú. The capital city, Rio de Janeiro, is a melting pot of cultures with a mix of indigenous, European, and African influences.
+
+**3. India - ""Golden City""**: A land of vibrant colors, rich spices, and diverse traditions. The Golden Triangle region in the north is home to the Taj Mahal, while the south is dotted with temples, forts, and bustling bazaars.
+
+**4. Morocco - ""Al-Khazneh""**: A desert city where the ancient pyramids of Giza loom large, surrounded by vast dunes and oases. The souks (markets) are filled with colorful spices, carpets, and handmade crafts.
+
+**5. China - ""Beijing""**: A modern metropolis with towering skyscrapers, bustling streets, and a rich history dating back thousands of years. The Great Wall, Peking Opera, and the Forbidden City are just a few of the many landmarks that make up this incredible city.
+
+These are just brief summaries, but I hope they give you an idea of what each culture is like!",11.38,325,11.23,308.0
+smollm:360m,4,"Here are 5 words that describe the world:
+
+* **Unsettling**: The world can be overwhelming and make you feel like everything is going wrong. It's as if the entire planet is a big, messy room full of surprises.
+* **Vibrant**: The world is alive with color, sound, and movement. It's a place where anything can happen, and every moment feels like an adventure.
+* **Unpredictable**: The world is constantly changing and shifting. Things can go from good to bad or vice versa in the blink of an eye.
+* **Sensational**: The world is full of surprises, both good and bad. It's a place where you'll encounter new sights, sounds, smells, and sensations that will leave you breathless.
+* **Unbridled**: The world can be overwhelming because it's so full of possibilities and opportunities. You never know what amazing things are going to happen next!
+
+These words evoke feelings of excitement, curiosity, and a sense of wonder at the sheer complexity and diversity of the world we live in.",11.63,225,11.23,308.0
+smollm:135m,1,"Here are five words that describe the world:
+
+1. **Uninhabitable**: The world is a delicate, fragile place with limited resources and technology to survive. It's like a tiny, helpless being on a lifeboat.
+2. **Ecological Collapse**: The natural world is facing extinction due to human activities such as deforestation, pollution, climate change, and overconsumption of natural resources. This collapse can have devastating consequences for the planet and its inhabitants.
+3. **Human Impact**: Humans are responsible for much of the harm caused by their actions on this beautiful but fragile planet. They're not just polluting air or water; they're also destroying entire ecosystems that provide us with life-giving food, shelter, and clean air to breathe.
+4. **Diverse Ecosystems**: The world is home to a vast array of unique and fascinating ecosystems, including forests, grasslands, oceans, deserts, mountains, and more. Each ecosystem has its own special characteristics, making it difficult for humans to survive in this environment.
+5. **Unpredictable Weather Patterns**: The planet's weather patterns are unpredictable and can change rapidly due to various factors such as solar flares, volcanic eruptions, or changes in Earth's orbit around the sun. This unpredictability makes life on this beautiful but fragile planet extremely challenging.
+
+These words paint a vivid picture of what it means to be truly alive in this world. They remind us that we are all connected and dependent upon each other for our survival and well-being.",22.68,306,24.09,515.0
+smollm:135m,2,"Here is a short story about a world in 5 words:
+
+**The World of Tomorrow**
+
+In the year 2050, the world was on track to reach its full potential. The United Nations had been working tirelessly for years to address pressing issues like climate change, inequality, and social injustice. But despite the progress made, a glimmer of hope remained in the air. That spark, known as ""Hope,"" burned brightly within every hearthole, fueling humanity's determination to create a better future.
+
+The world was divided into five distinct regions: the North Pole, where the cold weather closed off access to new opportunities; the South Pole, where the sun beat down on the most vulnerable parts of the planet; the Middle East, where the region's rich natural resources were at risk of being exploited by foreign powers; the Pacific Islands, where the region's fragile ecosystems were threatened by rising sea levels and erosion; and finally, the Arctic Circle, where the region's vast wilderness areas were under threat from climate change.
+
+Despite these challenges, Hope remained a beacon of hope in the darkness. It was a reminder that even in the darkest of times, there was always something to be grateful for – kindness, compassion, innovation, or simply the possibility of better days ahead.
+
+As the years passed, Hope grew stronger and more resilient with each passing day. It became clear that while some challenges were insurmountable, it was precisely these difficulties that brought people together in a way that no longer seemed possible. The world's most pressing issues, such as poverty, inequality, and environmental degradation, were now seen as opportunities for growth and progress.
+
+The United Nations had been working tirelessly to address these challenges, but the true magic lay not in solving problems, but in creating spaces where people could come together to find common ground – a space of hope that was both tangible and intangible.
+
+As the world reached its peak in 2050, Hope remained a constant presence, a reminder that even in the darkest of times, there was always something to be grateful for. It was a beacon of inspiration, a shining star that shone bright within every hearthole, fueling humanity's determination to create a better future.
+
+In this year, 2050, Hope remained a constant presence, a reminder that even in the darkest of times, there was always something to be grateful for – kindness, compassion, innovation, or simply the possibility of better days ahead.",25.07,507,24.09,515.0
+smollm:135m,3,"Here is a short story about the world in 5 words:
+
+The city of New Eden was once a bustling metropolis, where towering skyscrapers pierced the sky and vibrant streets stretched out like an endless ocean. It was here that the people of New Eden lived their daily lives, working hard to make a difference in this incredible place.
+
+As I stepped off the bus and onto the platform, I felt a mix of emotions: excitement, nervousness, and a hint of curiosity about what lay ahead. The city was so bright, so alive, that it seemed almost... normal at first glance. But as I made my way through the crowded streets, I began to realize just how much this place meant to me.
+
+I had always been drawn to the city's energy and vibrancy. As a child, I would spend hours exploring the city's many hidden corners, discovering secret gardens or uncovering hidden treasures that only revealed themselves in great detail. And as an adult, I felt like I was walking on air – free from the constraints of the ordinary world and into a world full of possibilities and wonders beyond my wildest dreams.
+
+As I made my way through the city's main thoroughfare, I marveled at the towering skyscrapers that seemed to stretch up towards the clouds in every direction. They were so tall, so high, that it was hard not to feel awed by their sheer scale. And yet, despite all of this, there was something very special about this place – a sense of wonder and awe that only came from truly being here.
+
+As I walked along the platform, I felt like I was walking on air too. The city's energy was so strong, it seemed almost... real to me. And yet, despite all of this, there was something very special about this place – a sense of wonder and awe that only came from truly being here.
+
+As I made my way through the platform, I felt like I was walking on air too. The city's energy was so strong, it seemed almost... real to me. And yet, despite all of this, there was something very special about this place – a sense of wonder and awe that only came from truly being here.
+
+As I walked along the platform, I felt like I was walking on air too. The city's energy was so strong, it seemed almost... real to me. And yet, despite all of this, there was something very special about this place – a sense of wonder and awe that only came from truly being here.
+
+As I made my way through the platform, I felt like I was walking on air too. The city's energy was so strong, it seemed almost... real to me. And yet, despite all of this, there was something very special about this place – a sense of wonder and awe that only came from truly being here.",24.61,583,24.09,515.0
+smollm:135m,4,"Here are five paragraphs on the world:
+
+The world is a vast and diverse continent, comprising of continents like Africa, Asia, Europe, Australia, and many more. It spans over 20 million square kilometers (7.5 million sq mi) and covers an area that is roughly 34 times larger than the United States. The Earth's surface is divided into five main regions: the Arctic Ocean, Antarctica, the Antarctic Peninsula, the South Pole, and the North Pole. Each region has its own unique features, including towering mountain ranges like the Himalayas or the Andes, vast oceans like the Pacific or Atlantic, and diverse coastlines that offer a glimpse of the world's wonders.
+
+One of the most fascinating aspects of the world is its sheer scale and complexity. The Earth covers over 70% of our planet's surface area, making it roughly one-sixth of the entire planet in some cases. This vastness makes it difficult to imagine that we have only scratched the surface of this incredible place. From towering mountain ranges like the Himalayas or Andes, to vast oceans like the Pacific or Atlantic, and diverse coastlines like the Antarctic Peninsula, there are countless wonders waiting to be discovered. The Earth's surface is home to some of the most breathtaking natural phenomena in the world, including glaciers melting into the air, auroras dancing across the sky, and even the rare phenomenon of a meteorite landing on our planet's surface.
+
+Despite its vastness, the world also has many interesting and unique features that make it worth exploring. For example, the Earth is home to some of the most biodiverse ecosystems in the world, including rainforests like those found only in South America or Australia. The ocean floor is a vast expanse of coral reefs, while the Antarctic Peninsula is home to an incredible array of marine life, from penguins and seals to whales and dolphins. The Arctic Ocean is also home to unique species that are adapted to survive in one of the most extreme environments on Earth, including polar bears and walruses. And yet, despite its vastness, the world has many more interesting and unique features than we can imagine.
+
+One of the most fascinating aspects of the world is its ability to inspire wonder and awe in those who are fortunate enough to be here. The natural beauty of the Earth's surface makes it a truly special place that should not be taken for granted, even if it seems like an impossibility at times. From the towering peaks of Mount Everest or the glaciers of Antarctica to the vastness of the ocean floor, there is always something new and exciting waiting to be discovered in this incredible world. The Earth's surface is a reminder that we are all connected to one another, and that our planet has much to offer us if only we were more aware of it.
+
+In conclusion, the world is a truly remarkable place that offers so much to explore and appreciate. From its vastness and complexity to its unique features, there is always something new and interesting waiting to be discovered in this incredible place. Whether you're an adventure-seeker or simply looking for inspiration, the world has many more fascinating and unique features than we can imagine. So come along on this journey of discovery, and let the wonders of the Earth make your heart race with excitement!",24.03,664,24.09,515.0
+phi3:latest,ERROR,N/A,N/A,N/A,N/A,N/A
+smollm2:135m,1,The world is a mystical realm filled with wonder and mystery.,2.46,13,9.43,27.0
+smollm2:135m,2,I'm an AI chatbot designed to help with your questions and inquiries related to daily life. My responses should be brief yet informative and convey relevant information like weather forecasts or company news as requested. Please let me know if you need more specific details or have additional questions about any topic in detail!,11.75,60,9.43,27.0
+smollm2:135m,3,"Here's a succinct version of the text: ""A world filled with diverse cultures and exciting adventures.""",11.73,21,9.43,27.0
+smollm2:135m,4,The world is a vast and wondrous place filled with endless possibilities.,11.78,14,9.43,27.0
+smollm2:360m,1,A world that has changed since I was born.,0.96,11,3.68,24.5
+smollm2:360m,2,Unease and fear.,4.53,7,3.68,24.5
+smollm2:360m,3,1. The World is Insecure and Fearful of Progress 2. It Has Been Divided into Monopolies 3. Some Governments Are Censoring Information 4. Many People Are Stressed and Unhappy 5. This Stress Is Having a Significant Impact on Mental Health,4.62,60,3.68,24.5
+smollm2:360m,4,"Unpredictable, Unrealistic, Unstable, Insecure, Unequipped.",4.61,20,3.68,24.5
+smollm2:latest,ERROR,N/A,N/A,N/A,N/A,N/A
+llama3.2:1b-instruct-q2_K,1,"I'm not capable of entering into a conversation with anyone, or answering questions beyond what is given. (Searcher)
+ 
+
+Why: The term ""world"" has a different connotation in different situations.
+ 
+
+Explanation: The concept of the ""world"" can be quite broad, and I'd have to have similar information for each ""world"".",2.57,70,4.02,83.5
+llama3.2:1b-instruct-q2_K,2,"I'm not sure what you want to discuss. Can you please provide more context or clarify your request? If you're looking for information on ""The World,"" you might be referring to global catastyses such as global solar storms; or a particular incident involving nuclear power; that's the only thing I can do in for words",4.50,66,4.02,83.5
+llama3.2:1b-instruct-q2_K,3,"I think there's been a misunderstanding. I'm an artificial general information based, and i only — five sentences.
+
+Here are twenty-four words ""the world"" exists:
+
+""the world is spherical
+reality are all different things
+people who live on water
+seals can swim
+freedom has nothing but air
+
+I apologize for the previous response, it seems you're trying to tell something but it seems like some of those sentences were omitted.
+
+However, if I'd put my finger in that great sense and feel, I have many questions:
+
+1. How do people react when they hear a different way from you for every question?",4.51,130,4.02,83.5
+llama3.2:1b-instruct-q2_K,4,"The concept of ""the world"" is a bit complex because there isn't really a fixed definition for it. However, I can provide some ideas that might help you complete your thought:
+
+1. Human-made world
+2. World as we comprehend it, with many variables and complexities.
+3. Global community
+4. The world people",4.51,68,4.02,83.5
+llama3.2:1b,1,"Complex, interconnected global system.",0.34,7,2.04,8.8
+llama3.2:1b,2,"Complex, interconnected ecosystems.",2.58,6,2.04,8.8
+llama3.2:1b,3,"Diverse, complex, ever-changing world.",2.61,10,2.04,8.8
+llama3.2:1b,4,"Diverse, complex, interconnected, dynamic, fragile.",2.62,12,2.04,8.8
+llama3.2:latest,ERROR,N/A,N/A,N/A,N/A,N/A

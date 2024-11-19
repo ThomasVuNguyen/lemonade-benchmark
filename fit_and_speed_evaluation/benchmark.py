@@ -80,7 +80,7 @@ def main():
     # Create timestamp for the CSV filename
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     csv_filename = f'ollama_benchmark_{timestamp}.csv'
-    prompt = "Tell me about the world in 2 sentences"
+    prompt = "Tell me about the world in 5 words"
     
     # Get all installed models
     models = get_installed_models()
