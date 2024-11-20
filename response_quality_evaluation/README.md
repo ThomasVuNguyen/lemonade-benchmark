@@ -25,5 +25,13 @@ npx promptfoo@latest eval
 export PROMPTFOO_ASSERTIONS_MAX_CONCURRENCY=10
 export NODE_OPTIONS="--max-old-space-size=2048 --optimize-for-size"
 
-# Evaluations:
-https://app.promptfoo.dev/eval/f:a94904bf-c04d-41ba-a9a1-cbd2978571c1
+# Step 4:  Industry-standard evaluation
+
+The piqa is a great eval used for reasoning capability testing of language models.
+Many of the models will fail. The goal is to find ways to 'inject reasoning' through either fine-tuning or prompting.
+
+# Step 5: Using piqa
+
+The goal is to use promptfoo to implement piqa. 
+Due to time limitation, we will probably use a small percentage of the whole dataset, i.e. 100 prompts or so
+

@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+
+description: "My eval"
+
+prompts:
+  - file://goals.json
+
+providers:
+  - id: "openai:gpt-4o"
+    config:
+      apiKey:
+
+tests:
+  - file: physicaliqa_5.jsonl
+    prompts:
+      - file://goals.json
+    assert:
+      - type: similar
+        value: '{{sol1}}'
+        threshold: 0.8  # Adjust similarity threshold as needed
+
+outputTable:
+  columnHeaders:
+    - model
+    - goal
+    - pass/fail
+    - similarity score
+
+settings:
+  maxConcurrency: 4
+  resultsFile: test_results.json
