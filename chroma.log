@@ -1,0 +1,60 @@
+[33mWARNING[0m:  [21-11-2024 22:27:28] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [21-11-2024 22:27:28] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [21-11-2024 22:27:28] Starting component System
+[36mDEBUG[0m:    [21-11-2024 22:27:28] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [21-11-2024 22:27:28] Starting component SqliteDB
+[36mDEBUG[0m:    [21-11-2024 22:27:29] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [21-11-2024 22:27:29] Starting component Posthog
+[36mDEBUG[0m:    [21-11-2024 22:27:29] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [21-11-2024 22:27:29] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [21-11-2024 22:27:29] Starting component LocalExecutor
+[36mDEBUG[0m:    [21-11-2024 22:27:29] Starting component SegmentAPI
+[32mINFO[0m:     [21-11-2024 22:27:29] Started server process [[36m55803[0m]
+[32mINFO[0m:     [21-11-2024 22:27:29] Waiting for application startup.
+[32mINFO[0m:     [21-11-2024 22:27:29] Application startup complete.
+[32mINFO[0m:     [21-11-2024 22:27:29] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [21-11-2024 22:27:31] ::1:58050 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:27:31] ::1:58058 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:27:31] ::1:58058 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:27:31] ::1:58050 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 400
+[32mINFO[0m:     [21-11-2024 22:28:11] ::1:52592 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:11] ::1:52606 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:11] ::1:52606 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:11] ::1:52592 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:27] ::1:46644 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:27] ::1:46652 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:27] ::1:46652 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:27] ::1:46644 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 409
+[32mINFO[0m:     [21-11-2024 22:28:53] ::1:54878 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:53] ::1:54886 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:28:53] ::1:54886 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [21-11-2024 22:28:53] Collection the-creative-act already exists, returning existing collection.
+[32mINFO[0m:     [21-11-2024 22:28:53] ::1:54878 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:29:12] ::1:37934 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [21-11-2024 22:29:12] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [21-11-2024 22:29:12] ::1:37934 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/add HTTP/1.1" 201
+[32mINFO[0m:     [21-11-2024 22:29:12] ::1:37934 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/query HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:30:35] ::1:51606 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:30:36] ::1:51618 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:30:36] ::1:51618 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [21-11-2024 22:30:36] Collection the-creative-act already exists, returning existing collection.
+[32mINFO[0m:     [21-11-2024 22:30:36] ::1:51606 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:30:37] ::1:51606 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:30:37] ::1:51606 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/add HTTP/1.1" 201
+[32mINFO[0m:     [21-11-2024 22:30:37] ::1:51606 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/query HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:32:05] ::1:45776 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:32:05] ::1:45788 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:32:05] ::1:45788 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [21-11-2024 22:32:05] Collection the-creative-act already exists, returning existing collection.
+[32mINFO[0m:     [21-11-2024 22:32:05] ::1:45776 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:32:06] ::1:45776 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:32:06] ::1:45776 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/add HTTP/1.1" 201
+[32mINFO[0m:     [21-11-2024 22:32:06] ::1:45776 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/query HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:34:27] ::1:51692 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:34:27] ::1:51704 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:34:27] ::1:51704 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [21-11-2024 22:34:27] Collection the-creative-act already exists, returning existing collection.
+[32mINFO[0m:     [21-11-2024 22:34:27] ::1:51692 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:34:28] ::1:51692 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [21-11-2024 22:34:28] ::1:51692 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/add HTTP/1.1" 201
+[32mINFO[0m:     [21-11-2024 22:34:28] ::1:51692 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6b6e8dd0-4c9a-42b8-8109-130c02520aa8/query HTTP/1.1" 200

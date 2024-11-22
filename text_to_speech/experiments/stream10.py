@@ -181,7 +181,7 @@ def main():
     audio_thread.start()
     display_thread.start()
     
-    prompt = "Tell me a short story. Make sure to use proper punctuation and complete sentences."
+    prompt = "Tell me about the 'The Creative Act' book. Make sure to use proper punctuation and complete sentences. If you do not have memory of this, do not answer"
     print("Starting story generation and speech synthesis...\n")
     
     try:
