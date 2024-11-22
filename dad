@@ -1,0 +1,15 @@
+* [33m426058d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Added TTS & realtime
+* [33m8864207[m Integrated real-time text-to-speech
+[31m|[m * [33md0bd0b8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m qiqa benchmark integration attempt #1
+[31m|[m * [33m89eb4d5[m running more eval for orange pi 5 pro 16gb
+[31m|[m[31m/[m  
+* [33mee4416f[m Reorganized rpi4 eval
+* [33m56d8604[m Added benchmark for RPi4 4GB & modified benchmark prompt for faster benchmarking
+* [33mab7788a[m New readme
+* [33mfe63da1[m Added benchmark from Orange Pi 5 Pro 16GB
+* [33m299e24e[m reorganized benchmarks
+* [33m66742af[m First benchmark for RPi5 8GB complete!
+* [33m48b56bc[m Initial fit benchmark - Does it fit in RAM & how fast does it run?
+* [33m3bb03a5[m eval 1
+* [33mc44b70a[m Initiated a first few eval
+* [33m8caede5[m Initial commit
